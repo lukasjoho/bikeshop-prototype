@@ -1,0 +1,24 @@
+.cursor {
+	position: fixed;
+	left: 0;
+	top: 0;
+	width: 26px;
+	height: 26px;
+	border-radius: 100%;
+	background-color: none;
+	z-index: 9999;
+	pointer-events: none;
+	border: 2px solid #1a1a1a;
+	&:before {
+		content: ' ';
+		position: absolute;
+		z-index: -1;
+		width: calc(100% + 4px);
+		height: calc(100% + 4px);
+		top: -4px;
+		left: -4px;
+
+		border: 2px solid #f5f5f5;
+		border-radius: 100%;
+	}
+}

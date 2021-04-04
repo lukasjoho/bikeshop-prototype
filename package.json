@@ -8,8 +8,18 @@
     "start": "next start"
   },
   "dependencies": {
+    "@fontsource/rubik": "^4.2.2",
+    "@svgr/webpack": "^5.5.0",
+    "framer-motion": "^4.0.3",
     "next": "10.0.9",
+    "next-react-svg": "^1.1.2",
     "react": "17.0.2",
-    "react-dom": "17.0.2"
+    "react-animated-cursor": "^2.1.8",
+    "react-cursor-follow": "^2.0.0",
+    "react-dom": "17.0.2",
+    "react-spring": "^9.0.0",
+    "sass": "^1.32.8",
+    "styled-components": "^5.2.1",
+    "swiper": "^6.5.3"
   }
 }
